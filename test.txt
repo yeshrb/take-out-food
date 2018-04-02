@@ -1,0 +1,56 @@
+
+> take-out-food@1.0.0 test /Users/ljj/proLearn/take-out-food
+> node run-test.js && exit 1
+
+Started
+
+>> Executing 15 defined specs...
+
+Test Suites & Specs:
+
+1) Take out food
+enter item judge
+[32m.[0m   ✔ should generate best charge when best is 指定菜品半价
+[32m.[0m   ✔ should generate best charge when best is 满30减6元
+[32m.[0m   ✔ should generate best charge when no promotion can be used
+
+2) deal-order-detail
+[32m.[0m   ✔ should generate order detail
+
+3) calculate-account-account-before-discount
+[32m.[0m   ✔ should calculate  account  38 
+[32m.[0m   ✔ should calculate  account  32 
+[32m.[0m   ✔ should calculate  account  24 
+[32m.[0m   ✔ should calculate  account  8 
+
+4) calculate-discharge
+[32m.[0m   ✔ should calculate discharge 13 
+[32m.[0m   ✔ should calculate discharge 6 
+[32m.[0m   ✔ should calculate discharge 0 
+
+5) calculate-total-account-spec
+[32m.[0m   ✔ should calculate total account  25 
+
+6) deal-selected-item
+[32m.[0m   ✔ should generate order object
+
+7) items
+[32m.[0m   ✔ should return a item name is 肉夹馍 by id = ITEM0022
+[32m.[0m   ✔ should return a item name is 黄焖鸡 by id = ITEM0001
+
+
+15 specs, 0 failures
+Finished in 0.02 seconds
+
+
+
+>> Done!
+
+
+Summary:
+
+Suites:  7 of 7
+Specs:   15 of 15
+Expects: 15 (0 failures)
+Finished in 0.021 seconds
+
